@@ -40,4 +40,4 @@ mkdir -p ${OUTPUT_DIR}
 LOG_FILE="${OUTPUT_DIR}/log.txt"
 
 # Run your Python training script
-python /scratch/users/ju12/USR-248-2/train_srgan.py 2>&1 | tee ${LOG_FILE}
+python train.py 2>&1 | tee ${LOG_FILE}
