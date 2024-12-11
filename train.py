@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 # Cluster Paths
 DATA_PATH = "/scratch/users/ju12/USR-248/train_val/"  # Replace with your dataset path
-MODEL_SAVE_PATH = "/scratch/users/ju12/USR-248-2/model_checkpoints/"  # Path to save model checkpoints
+MODEL_SAVE_PATH = "/scratch/users/ju12/USR-248/model_checkpoints/"  # Path to save model checkpoints
 
 # Ensure checkpoint directory exists
 if not os.path.exists(MODEL_SAVE_PATH):
